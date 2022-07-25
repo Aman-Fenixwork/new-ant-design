@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // import { Scatter } from '@ant-design/plots';
-import statsInterface from './statsInterface'
+import statsInterface from '../statsInterface'
 import dynamic from 'next/dynamic';
 const Scatter = dynamic(() => import('@ant-design/plots').then(({ Scatter } : { Scatter : any}) => Scatter),
     { ssr: false }
